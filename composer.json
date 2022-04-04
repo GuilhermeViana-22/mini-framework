@@ -1,0 +1,18 @@
+{
+    "name": "guilherme/vianadev",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guilherme Viana",
+            "email": "gguicido.viana@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }       
+   
+}

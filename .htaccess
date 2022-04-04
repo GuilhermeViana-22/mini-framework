@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+
+RewriteCond %{THE_REQUEST} public/([^\s]*) [NC]
+RewriteRule ^(.*)$ $1.html
+RewriteRule ^((?!public/)*)$ mini-framework/public/$1 [L,NC]
