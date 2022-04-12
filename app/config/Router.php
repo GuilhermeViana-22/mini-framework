@@ -4,8 +4,6 @@
         (new \app\controller\TesteController)->index();
     });
 
-    $this->get('/about/test', function(){
-        echo "estou na about";
-    });
+  $this->get('/categoria', 'TesteController');
 
 ?>
